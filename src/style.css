@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ff6f00 url('assets/basketball.png') no-repeat center bottom;
+    background-size: 150px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+    padding: 2rem 3rem;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 0.6rem 2rem;
+    background-color: orange;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: darkorange;
+}
